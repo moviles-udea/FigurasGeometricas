@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">Figuras Geometricas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lado_b">Base b</string>
+    <string name="alruta_h">Altura h</string>
+    <string name="textRomboide">El caso del romboide es muy similar al del rectángulo, de hecho, la fórmula es
+        exactamente igual. Al igual que estudiamos en ese caso será igual a la base por la altura.
+    </string>
+    <string name="calcular_rea">Calcular Área</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
