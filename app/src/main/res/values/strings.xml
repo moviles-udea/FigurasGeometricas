@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Figuras Geometricas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="areaCirculo">Area del circulo</string>
+    <string name="radio">Ingrese el radio del circulo</string>
+    <string name="calcular">Calcular</string>
+    <string name="mensajeNoRadio">No ha ingresado el radio del circulo</string>
 </resources>
