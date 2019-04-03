@@ -10,6 +10,7 @@ interface IAreaTrianguloMVP {
         fun getAltura(): String
         fun error(error: String)
         fun resultadoDatos(area_triangulo: Double)
+        fun exito()
 
 
     }

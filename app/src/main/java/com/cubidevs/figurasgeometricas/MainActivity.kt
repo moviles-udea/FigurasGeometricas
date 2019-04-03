@@ -10,7 +10,6 @@ import com.cubidevs.figurasgeometricas.area_triangulo.AreaTrianguloFragment
 class MainActivity : AppCompatActivity() {
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

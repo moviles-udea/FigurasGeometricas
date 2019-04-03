@@ -20,7 +20,6 @@ import kotlinx.android.synthetic.main.fragment_area_triangulo.view.*
 class AreaTrianguloFragment : Fragment() ,IAreaTrianguloMVP.view{
 
 
-
     //--------------------------------
     //interfaz
     private lateinit var presenter: IAreaTrianguloMVP.presenter
@@ -69,5 +68,12 @@ class AreaTrianguloFragment : Fragment() ,IAreaTrianguloMVP.view{
     }
 
     //------------------------------------------------------------------
+
+    override fun exito() {
+
+        eBase.text.toString().equals("")
+        eAltura.text.toString().equals("")
+    }
+
 }
 

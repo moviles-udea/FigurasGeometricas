@@ -56,7 +56,9 @@ class AreaTrianguloPresenter:IAreaTrianguloMVP.presenter {
 
     //---------------------------------------------------------------------------------
     override fun exito() {
-        
+
+        view.exito()
+
     }
 
 
