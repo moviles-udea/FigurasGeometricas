@@ -5,7 +5,7 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent"
-        tools:context=".RectanguloFragment">
+        tools:context=".rectanguloarea.RectanguloFragment">
 
     <TextView
             android:layout_width="wrap_content"
@@ -33,6 +33,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimary"
                 android:hint="@string/Base"
+                android:gravity="center_horizontal"
                 android:id="@+id/eBase"
                 android:inputType="number"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -46,6 +47,7 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/Altura"
                 android:textColor="@color/colorPrimary"
+                android:gravity="center_horizontal"
                 android:id="@+id/eAltura"
                 android:inputType="number"/>
     </com.google.android.material.textfield.TextInputLayout>
