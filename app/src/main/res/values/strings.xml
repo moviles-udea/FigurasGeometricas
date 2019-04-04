@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Figuras Geometricas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="AreaRectangulo">Calular Area Rectángulo</string>
+    <string name="Calcular">Calcular</string>
+    <string name="Resultado">Resultado</string>
+    <string name="Base">Ingrese la base del rectángulo</string>
+    <string name="Altura">Ingrese la altura del rectángulo</string>
 </resources>
