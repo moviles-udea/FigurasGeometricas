@@ -21,6 +21,7 @@ class CirculoPresenter: ICirculoMVP.PresenterView, ICirculoMVP.PresenterModel{
 
     override fun areaValor(area: Double) {
         view.areaValor(area)
+
     }
 
 }
