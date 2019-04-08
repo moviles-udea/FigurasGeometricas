@@ -7,4 +7,19 @@
     <string name="radio">Ingrese el radio del circulo</string>
     <string name="calcular">Calcular</string>
     <string name="mensajeNoRadio">No ha ingresado el radio del circulo</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="circulo">Circulo</string>
+    <string name="cuadro">Cuadro</string>
+    <string name="rectangulo">Rectangulo</string>
+    <string name="rombo">Rombo</string>
+    <string name="trapecio">Trapecio</string>
+    <string name="romboide">Romboide</string>
+    <string name="paralelogramo">Paralelogramo</string>
+    <string name="triangulo">triangulo</string>
 </resources>
