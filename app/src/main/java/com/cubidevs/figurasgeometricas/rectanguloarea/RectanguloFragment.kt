@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.cubidevs.figurasgeometricas.R
 import kotlinx.android.synthetic.main.fragment_rectangulo.*
+import kotlinx.android.synthetic.main.fragment_rectangulo.view.*
 
 class RectanguloFragment : Fragment(),InterfazRectanguloMVP.view {
 
@@ -17,12 +18,15 @@ class RectanguloFragment : Fragment(),InterfazRectanguloMVP.view {
         savedInstanceState: Bundle?
     ): View? {
 
+
+        var view = inflater.inflate(R.layout.fragment_rectangulo, container, false)
+
         presenter = RectanguloPresenter(this)
 
-        bCalcular.setOnClickListener(){
+        view.bCalcular.setOnClickListener(){
             presenter.CalcularClicked()
         }
-        return inflater.inflate(R.layout.fragment_rectangulo, container, false)
+        return view;
     }
 
     override fun getBase(): Int {
