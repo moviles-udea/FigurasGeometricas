@@ -21,7 +21,7 @@
     <string name="textRomboide">El caso del romboide es muy similar al del rectángulo, de hecho, la fórmula es
         exactamente igual. Al igual que estudiamos en ese caso será igual a la base por la altura.
     </string>
-    <string name="calcular_rea">Calcular Área</string>
+    <string name="calcular_area">Calcular Área</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -47,4 +47,5 @@
     <string name="info_area_rombo">El area del rombo se calcula igual que de un cuadrado, la formula es lado al
         cuadrado.
     </string>
+    <string name="lado_rombo">Digite lado del rombo</string>
    </resources>

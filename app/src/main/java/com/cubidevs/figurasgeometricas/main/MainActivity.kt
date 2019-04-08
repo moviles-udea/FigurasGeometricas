@@ -9,7 +9,13 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.cubidevs.figurasgeometricas.R
+import com.cubidevs.figurasgeometricas.Rombo.RomboView
+import com.cubidevs.figurasgeometricas.area_triangulo.AreaTrianguloFragment
+import com.cubidevs.figurasgeometricas.circulo.CirculoFragment
+import com.cubidevs.figurasgeometricas.rectanguloarea.RectanguloFragment
+import com.cubidevs.figurasgeometricas.romboide.RomboideView
 import com.google.android.material.navigation.NavigationView
+
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 
@@ -27,8 +33,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         fragmentManager  = supportFragmentManager
         fragmentTransaction = fragmentManager.beginTransaction()
 
-      /*  fragment = CirculoFragment()
-        fragmentTransaction.add(R.id.frameLayout, fragment).commit()*/
+        fragment = CirculoFragment()
+        fragmentTransaction.add(R.id.frameLayout, fragment).commit()
 
         val toggle = ActionBarDrawerToggle(
             this, drawer_layout, toolbar,
@@ -54,31 +60,33 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         fragmentTransaction = fragmentManager.beginTransaction()
         when (item.itemId) {
             R.id.nav_circulo -> {
-         //       fragment = CirculoFragment()
+                fragment = CirculoFragment()
             }
             R.id.nav_cuadro -> {
                 // fragment = CuadroFragment()
             }
             R.id.nav_rectangulo -> {
-                // fragment = RectanguloFragment()
+                 fragment = RectanguloFragment()
             }
             R.id.nav_triangulo -> {
-                // fragment = TrianguloFragment()
+                 fragment = AreaTrianguloFragment()
             }
             R.id.nav_rombo -> {
-                // fragment = RomboFragment()
+                 fragment = RomboView()
             }
             R.id.nav_trapecio -> {
                 // fragment = TrapecioFragment()
             }
             R.id.nav_romboide -> {
-                // fragment = RomboideFragment()
+                 fragment = RomboideView()
             }
             R.id.nav_paralelogramo -> {
                 // fragment = ParalelogramoFragment()
             }
-        //    fragmentTransaction.replace(R.id.frameLayout, fragment).commit()
+
+
         }
+        fragmentTransaction.replace(R.id.frameLayout, fragment).commit()
         drawer_layout.closeDrawer(GravityCompat.START)
         return true
     }
