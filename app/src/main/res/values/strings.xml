@@ -24,4 +24,9 @@
     <string name="romboide">Romboide</string>
     <string name="paralelogramo">Paralelogramo</string>
     <string name="triangulo">triangulo</string>
+    <string name="info_area_rombo">El area del rombo se calcula igual que de un cuadrado, la formula es lado al
+        cuadrado.
+    </string>
+    <string name="lado_rombo">Lado</string>
+    <string name="calcular_area">Calcular area</string>
 </resources>
