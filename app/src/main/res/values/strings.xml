@@ -2,6 +2,13 @@
     <string name="app_name">Figuras Geometricas</string>
 
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="areaCirculo">Area del circulo</string>
+    <string name="radio">Ingrese el radio del circulo</string>
+    <string name="calcular">Calcular</string>
+    <string name="mensajeNoRadio">No ha ingresado el radio del circulo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="AreaRectangulo">Calular Area Rectángulo</string>
     <string name="Calcular">Calcular</string>
     <string name="Resultado">Resultado</string>
@@ -9,7 +16,6 @@
     <string name="Altura">Ingrese la altura del rectángulo</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="lado_b">Base b</string>
     <string name="alruta_h">Altura h</string>
     <string name="textRomboide">El caso del romboide es muy similar al del rectángulo, de hecho, la fórmula es
@@ -36,7 +42,6 @@
 
     <string name="base">Digite la base :</string>
     <string name="altura">Digite la altura:</string>
-    <string name="calcular">Calcular</string>
     <string name="resultado">El resultado es:</string>
     <string name="titulo">Area de un triangulo</string>
 </resources>
