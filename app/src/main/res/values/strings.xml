@@ -44,4 +44,7 @@
     <string name="altura">Digite la altura:</string>
     <string name="resultado">El resultado es:</string>
     <string name="titulo">Area de un triangulo</string>
-</resources>
+    <string name="info_area_rombo">El area del rombo se calcula igual que de un cuadrado, la formula es lado al
+        cuadrado.
+    </string>
+   </resources>
