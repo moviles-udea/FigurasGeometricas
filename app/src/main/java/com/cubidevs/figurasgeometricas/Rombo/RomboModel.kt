@@ -1,11 +1,14 @@
 package com.cubidevs.figurasgeometricas.Rombo
 
-class RomboModel {
+class RomboModel : IRombo.model {
 
-    private lateinit var presenter: IRombo.presenter
+    private var presenter: IRombo.presenter
 
     constructor(presenter: IRombo.presenter){
         this.presenter = presenter
+    }
+    override fun calculateArea(lado: Float){
+        presenter.setCalculate(lado)
     }
 
 
