@@ -24,4 +24,12 @@
     <string name="romboide">Romboide</string>
     <string name="paralelogramo">Paralelogramo</string>
     <string name="triangulo">triangulo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="base">Digite la base :</string>
+    <string name="altura">Digite la altura:</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">El resultado es:</string>
+    <string name="titulo">Area de un triangulo</string>
 </resources>
