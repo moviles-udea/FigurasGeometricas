@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_circulo"
+                android:title="@string/circulo"/>
+        <item
+                android:id="@+id/nav_cuadro"
+                android:title="@string/cuadro"/>
+        <item
+                android:id="@+id/nav_rectangulo"
+                android:title="@string/rectangulo"/>
+        <item
+                android:id="@+id/nav_rombo"
+                android:title="@string/rombo"/>
+        <item
+                android:id="@+id/nav_triangulo"
+                android:title="@string/triangulo"/>
+        <item
+                android:id="@+id/nav_trapecio"
+                android:title="@string/trapecio"/>
+        <item
+                android:id="@+id/nav_romboide"
+                android:title="@string/romboide"/>
+        <item
+                android:id="@+id/nav_paralelogramo"
+                android:title="@string/paralelogramo"/>
+    </group>
+</menu>

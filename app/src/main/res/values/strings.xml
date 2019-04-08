@@ -2,10 +2,41 @@
     <string name="app_name">Figuras Geometricas</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="AreaRectangulo">Calular Area Rectángulo</string>
     <string name="Calcular">Calcular</string>
     <string name="Resultado">Resultado</string>
     <string name="Base">Ingrese la base del rectángulo</string>
     <string name="Altura">Ingrese la altura del rectángulo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lado_b">Base b</string>
+    <string name="alruta_h">Altura h</string>
+    <string name="textRomboide">El caso del romboide es muy similar al del rectángulo, de hecho, la fórmula es
+        exactamente igual. Al igual que estudiamos en ese caso será igual a la base por la altura.
+    </string>
+    <string name="calcular_rea">Calcular Área</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="circulo">Circulo</string>
+    <string name="cuadro">Cuadro</string>
+    <string name="rectangulo">Rectangulo</string>
+    <string name="rombo">Rombo</string>
+    <string name="trapecio">Trapecio</string>
+    <string name="romboide">Romboide</string>
+    <string name="paralelogramo">Paralelogramo</string>
+    <string name="triangulo">triangulo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="base">Digite la base :</string>
+    <string name="altura">Digite la altura:</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">El resultado es:</string>
+    <string name="titulo">Area de un triangulo</string>
 </resources>
